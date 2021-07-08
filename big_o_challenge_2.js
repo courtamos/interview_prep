@@ -1,5 +1,5 @@
 // Big O Calculation Challenge 2
-// Big O(4 + 7n)
+// Big O(4 + 7n) === O(n)
 
 function anotherFunChallenge(input) {
   let a = 5; // O(1)
