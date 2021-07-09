@@ -22,6 +22,7 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items) {
 }
 
 // 3 => Different Terms for Inputs
+// O(2n) => O(n)
 function compressBoxesTwice(boxes) {
   boxes.forEach(function (boxes) {
     console.log(boxes);
@@ -31,4 +32,16 @@ function compressBoxesTwice(boxes) {
     console.log(boxes);
   });
 }
+
+// O(n + n)
+function compressBoxesTwice(boxes, boxes2) {
+  boxes.forEach(function (boxes) {
+    console.log(boxes);
+  });
+
+  boxes2.forEach(function (boxes) {
+    console.log(boxes);
+  });
+}
+
 // 4 => Drop Non Dominants
