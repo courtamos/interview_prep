@@ -22,4 +22,13 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items) {
 }
 
 // 3 => Different Terms for Inputs
+function compressBoxesTwice(boxes) {
+  boxes.forEach(function (boxes) {
+    console.log(boxes);
+  });
+
+  boxes.forEach(function (boxes) {
+    console.log(boxes);
+  });
+}
 // 4 => Drop Non Dominants
