@@ -23,6 +23,7 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items) {
 
 // 3 => Different Terms for Inputs
 // O(2n) => O(n)
+// Rule of Thumb: if indentation is in line, its (n + n,) but if indentation is nested, its (n * n)
 function compressBoxesTwice(boxes) {
   boxes.forEach(function (boxes) {
     console.log(boxes);
@@ -44,4 +45,15 @@ function compressBoxesTwice(boxes, boxes2) {
   });
 }
 
+// Nested Arrays
+// O(n * n) => O(n^2) === Quadradic Time
+const boxes = [1, 2, 3, 4, 5];
+function logAllPairs(array) {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length; j++) {
+      console.log(array[i], array[j]);
+    }
+  }
+}
+logAllPairs(boxes);
 // 4 => Drop Non Dominants
