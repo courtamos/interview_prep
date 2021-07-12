@@ -38,3 +38,9 @@ A rulebook for simplifing Big-O calculations.
 5. Quadratic - O(n^2) - every element in a collection needs to be compared to every other element, using two nested loops.
 6. Exponential - O(2^n) - recursive algorithms that solves a problem of size n.
 7. Factorial - O(n!) - adding a loop for every element in a collection.
+
+## 3 Pillars of Programming
+
+1. Readable
+2. Scalable - Speed
+3. Scalable - Memory
