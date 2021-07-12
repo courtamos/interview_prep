@@ -1,12 +1,9 @@
-// BIG O RULE BOOK
-// 1 => Worst Case
-// we dont always know what the input with be (aka the size of it) so we can just assume that the worse case scenario is that the item we're looking for is last
-// so, we use O(n)
+// BIG O RULE BOOK EXAMPLES
 
 // 2 => Remove Constants
 // O(1 + n/2 + 100 ) => O(n + 1) => O(n)
 function printFirstItemThenFirstHalfThenSayHi100Times(items) {
-  console.log(items[0]); // O(1)
+  console.log(items[0]);
 
   const middleIndex = Math.floor(items.length / 2);
   let index = 0;
@@ -23,7 +20,6 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items) {
 
 // 3 => Different Terms for Inputs
 // O(2n) => O(n)
-// Rule of Thumb: if indentation is in line, its (n + n,) but if indentation is nested, its (n * n)
 function compressBoxesTwice(boxes) {
   boxes.forEach(function (boxes) {
     console.log(boxes);
@@ -45,7 +41,6 @@ function compressBoxesTwice(boxes, boxes2) {
   });
 }
 
-// Nested Arrays
 // O(n * n) => O(n^2) === Quadradic Time
 const boxes = [1, 2, 3, 4, 5];
 function logAllPairs(array) {
