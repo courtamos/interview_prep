@@ -3,7 +3,7 @@
 Big-O Time Complexities
 
 - lookup: O(n)
-- push: O(1)
+- push: O(1) // append: O(1) => can be O(n)
 - insert: O(n)
 - delete: O(n)
 
@@ -28,3 +28,15 @@ Big-O Time Complexities
 
 - add and/or remove items from any given position of an array
 - time complexity === O(n)
+
+## Types of Arrays
+
+1. Static Arrays
+
+- fixed in size
+- must know the number of items before hand
+
+2. Dynamic Arrays
+
+- allow you to copy and rebuild an array at a new location
+- can include/add new memory
