@@ -70,3 +70,16 @@ console.log(newArr);
 
 newArr.delete(1);
 console.log(newArr);
+
+// reverse a string
+// 'Hi My name is Courtney' => 'yentruoC si eman yM iH'
+
+function reverseString(string) {
+  if (!string || typeof string !== "string" || string.length < 2) {
+    return string;
+  }
+
+  return string.split("").reverse().join("");
+}
+
+console.log(reverseString("Hi My name is Courtney"));
