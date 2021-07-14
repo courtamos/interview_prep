@@ -83,3 +83,28 @@ function reverseString(string) {
 }
 
 console.log(reverseString("Hi My name is Courtney"));
+
+// merge sorted array
+// [0, 3, 31] [4, 6, 30] => [0, 3, 4, 4, 6, 30, 31]
+
+function mergeSortedArrays(array1, array2) {
+  if (array1.length === 0) {
+    return array2;
+  }
+
+  if (array2.length === 0) {
+    return array1;
+  }
+
+  const megeredArrays = [...array1, ...array2];
+
+  return megeredArrays.sort((a, b) => {
+    if (a > b) return 1;
+    if (a < b) return -1;
+    return 0;
+  });
+}
+
+console.log(mergeSortedArrays([0, 3, 4, 31], [4, 6, 30]));
+console.log(mergeSortedArrays([], [4, 6, 30]));
+console.log(mergeSortedArrays([0, 3, 4, 31], []));
