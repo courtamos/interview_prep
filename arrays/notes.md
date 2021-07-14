@@ -40,3 +40,15 @@ Big-O Time Complexities
 
 - allow you to copy and rebuild an array at a new location
 - can include/add new memory
+
+## When/Why to Use Arrays
+
+1. Fast Lookups
+2. Fast Push/Pop => inserting or deleting from the beginning or end
+3. Ordered
+
+## When/Why to NOT Use Arrays
+
+1. Slow Inserts => if you insert anywhere but the beginning or end
+2. Slow Deletes => if you delete anywhere but the beginning or end
+3. Fixed Size (aka static arrays)
