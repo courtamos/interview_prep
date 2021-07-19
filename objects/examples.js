@@ -66,3 +66,23 @@ console.log(myHashTable.set("apples", 54));
 console.log(myHashTable.set("oranges", 2));
 console.log(myHashTable.get("grapes"));
 console.log(myHashTable.keys());
+
+// first recurring character exercise
+// given: [2, 5, 1, 2, 3, 5, 1, 2, 4] => return 2
+
+function firstRecurringCharacter(input) {
+  for (let i = 0; i < input.length; i++) {
+    for (let j = i + 1; j < input.length; j++) {
+      if (input[i] === input[j]) {
+        return input[i];
+      }
+    }
+  }
+  return undefined;
+}
+
+console.log(firstRecurringCharacter([2, 5, 1, 2, 3, 5, 1, 2, 4]));
+console.log(firstRecurringCharacter([1, 5, 1, 2, 3, 5, 1, 2, 4]));
+console.log(firstRecurringCharacter([2, 5, 1, 3, 4]));
+console.log(firstRecurringCharacter([2]));
+console.log(firstRecurringCharacter([]));
