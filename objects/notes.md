@@ -33,3 +33,14 @@ Big-O Time Complexities
 2. insert: O(1)
 3. lookup: O(1)
 4. delete: O(1)
+
+## Why Use Objects (PROS)
+
+1. fast lookups
+2. fast inserts
+3. flexible keys
+
+## Why NOT Use Objects (CONS)
+
+1. unordered
+2. slow key iteration
