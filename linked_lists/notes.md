@@ -1,6 +1,6 @@
 ## Data Structures - Linked Lists
 
-Linked lists contain sets of nodes, which have 2 elements. The first is the value of the data you want to store and the second is the pointer which points to the next node in line.
+Linked lists contain sets of nodes, which have 2 or 3 elements (singly = 2, doubly = 3). The first is the value of the data you want to store, the second is the pointer which points to the next node in line, and the third is the pointer which points to the previous node.
 
 - Linked lists are null terminated.
 
@@ -16,8 +16,15 @@ Big-O Time Complexities
 
 There are 2 types of linked lists:
 
-1. singly linked
-2. doubly linked
+1. singly linked:
+
+- nodes: next
+- traverse: forwards only
+
+2. doubly linked:
+
+- nodes: next, previous
+- traverse: forwards and backwards
 
 ## Why Linked Lists VS Arrays OR Objects
 
