@@ -2,7 +2,7 @@
 
 Linked lists contain sets of nodes, which have 2 elements. The first is the value of the data you want to store and the second is the pointer which points to the next node in line.
 
-- Linked lists are null terminated
+- Linked lists are null terminated.
 
 Big-O Time Complexities
 
@@ -21,4 +21,8 @@ There are 2 types of linked lists:
 
 ## Why Linked Lists VS Arrays OR Objects
 
-1. loose structure: you can esaily insert a new value into the middle of the list by resetting a few pointers
+1. loose structure: you can esaily insert a new value into the middle of the list by resetting a few pointers.
+
+## What's a Pointer
+
+A pointer is a reference to another place in memory or another object or another node.
