@@ -16,3 +16,20 @@ Big-O Time Complexities
 2. Maps allows you to save any data type as a key, they also maintains insertion order.
 
 3. Sets, very similar to maps, but they only store the keys and no values.
+
+## Objects VS Arrays
+
+- Arrays
+
+1. search: O(n)
+2. lookup: O(1)
+3. push: O(1)
+4. insert: O(n)
+5. delete: O(n)
+
+- Objects
+
+1. search: O(1)
+2. insert: O(1)
+3. lookup: O(1)
+4. delete: O(1)
