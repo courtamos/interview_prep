@@ -87,6 +87,26 @@ class LinkedList {
     leader.next = unwantedNode.next;
     this.length--;
   }
+
+  reverse() {
+    if (!this.head.next) {
+      return this.head;
+    }
+
+    let first = this.head;
+    this.tail = this.head;
+    let second = first.next;
+
+    while (second) {
+      const temp = second.next;
+      second.next = first;
+      first = second;
+      second = temp;
+    }
+
+    this.head.next = null;
+    this.head = first;
+  }
 }
 
 const myLinkedList = new LinkedList(10);
@@ -102,6 +122,9 @@ console.log(myLinkedList.printList());
 
 myLinkedList.remove(2);
 console.log(myLinkedList.printList());
+
+myLinkedList.reverse();
+console.log("reversed: ", myLinkedList.printList());
 
 // doubly linked list
 class DoublyNode {
