@@ -33,3 +33,13 @@ There are 2 types of linked lists:
 ## What's a Pointer
 
 A pointer is a reference to another place in memory or another object or another node.
+
+## When to Use Singly VS Doubly
+
+1. Singly
+
+- when you require less memory to be used or need a fast solution
+
+2. Doubly
+
+- when you require traversing backwards
