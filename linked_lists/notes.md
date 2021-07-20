@@ -43,3 +43,17 @@ A pointer is a reference to another place in memory or another object or another
 2. Doubly
 
 - when you require traversing backwards
+
+## Pros && Cons of Linked Lists
+
+- Pros:
+
+1. fast insertion
+2. fast deletion
+3. ordered
+4. flexible size
+
+- Cons:
+
+1. slow lookup
+2. more memory
