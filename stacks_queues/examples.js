@@ -58,3 +58,35 @@ console.log(myStack.peek());
 myStack.pop();
 myStack.pop();
 console.log(myStack);
+
+// stack: using arrays
+class ArrayStack {
+  constructor() {
+    this.array = [];
+  }
+
+  peek() {
+    this.array[this.array.length - 1];
+  }
+
+  push(value) {
+    this.array.push(value);
+  }
+
+  pop() {
+    this.array.pop();
+  }
+}
+
+const myStack2 = new Stack();
+
+myStack2.push("Facebook");
+myStack2.push("Google");
+myStack2.push("Slack");
+console.log(myStack2);
+
+console.log(myStack2.peek());
+
+myStack2.pop();
+myStack2.pop();
+console.log(myStack2);
