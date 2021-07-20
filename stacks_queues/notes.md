@@ -23,3 +23,15 @@ Stacks and queues are similar, in that they are linear data structures. These da
 - enqueue: O(1)
 - dequeue: O(1)
 - peek: O(1)
+
+## Pros && Cons
+
+- Pros:
+
+1. fast operations
+2. fast peek
+3. ordered
+
+- Cons:
+
+1. slow lookup
