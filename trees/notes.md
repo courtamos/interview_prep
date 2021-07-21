@@ -66,3 +66,7 @@ Trees have a hierarchical structure, meaning they can have zero or more child no
 2. Cons:
 
 - slow lookup
+
+## Trie
+
+- specialized tree that is used for searching most often with text
