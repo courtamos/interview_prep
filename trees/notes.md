@@ -7,7 +7,7 @@ Trees have a hierarchical structure, meaning they can have zero or more child no
 - each node can only have zero, one, ot two child nodes
 - each child node can only have one parent node
 
-### Binary Search Tree
+## Binary Search Tree
 
 ###### Big O Time Complexities
 
@@ -36,3 +36,33 @@ Trees have a hierarchical structure, meaning they can have zero or more child no
 2. Cons:
 
 - no O(1) operations
+
+## Binary Heap
+
+- each level contains items that are less than the level above
+- no left and right difference (i.e. left is less then aprent node and right is greater than parent node)
+
+###### Big O Time Complexities
+
+- lookup: O(n)
+- insert: O(log N)
+- delete: O(log N)
+
+## Priority Queue
+
+- each element of the priority queue has a priority associated with it
+- elements are added to the quque as per their priority
+- the lowset priority elements are removed first
+
+## Pros and Cons
+
+1. Pros:
+
+- better than O(n)
+- priority
+- flexible size
+- fast insert
+
+2. Cons:
+
+- slow lookup
