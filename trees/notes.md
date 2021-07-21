@@ -24,3 +24,15 @@ Trees have a hierarchical structure, meaning they can have zero or more child no
 
 - unbalanced binary search tress turn into a long linked list, where instead of being able to do O(log N) operations, you have to loop through every item and it becomes O(n).
 - balanced binary search tress have an optimizes time complexity
+
+### Pros and Cons
+
+1. Pros:
+
+- better than O(n)
+- ordered
+- flexible size
+
+2. Cons:
+
+- no O(1) operations
