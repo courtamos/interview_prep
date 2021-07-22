@@ -18,3 +18,13 @@ A graph is a set of values that are related in a pairwise fashion. Each item in 
 
 - cyclic graphs are connected in a circular fashion, where you are able to cycle from one node/vertex to another and back to the original.
 - acyclic graphs are not connected in a circular fashion
+
+### Pros and Cons
+
+1. Pros:
+
+- relationships
+
+2. Cons:
+
+- scaling is hard
